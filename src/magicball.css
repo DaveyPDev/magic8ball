@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+.magicball {
+        width: 250px;
+        height: 250px;
+        background-color: #000;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}
+
+.fortune {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+  }
+
+.fortune-good {
+    color: green;
+}
+
+.fortune-meh {
+    color: goldenrod
+}
+
+.fortune-bad {
+    color: red
+}
